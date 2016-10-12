@@ -1,0 +1,70 @@
+page{
+  background-color: #fff;
+}
+.header {
+  padding: 40px;
+}
+.title {
+  font-size: 30px;
+}
+.desc {
+  margin-top: 5px;
+  color: #888888;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.searchbar input{
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 5%;
+  background: #FBF9FE;
+  font-size: 14px;
+}
+.tips{
+  padding-left: 150px;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf9fe;
+}
+.menu-item {
+  color: #000000;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #aaa;
+  padding: 10px;
+}
+.user{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: -30px;
+}
+.avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.text{
+  float: right;
+  width: 100%;
+}
+.inner{
+  margin-left: 30px;
+  font-size: 12px;
+}
+.username{
+  font-weight: 600;
+  margin-left: 10px;
+  vertical-align: 5px;
+}
+.lasttime{
+  float: right;
+  color: #666;
+}
+.dialog{
+  display: block;
+  margin-left: 10px;
+  color: #666;
+}

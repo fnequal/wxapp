@@ -1,0 +1,163 @@
+<view class="body">
+  <view class="searchbar">
+    <input type="text" placeholder="搜索" placeholder-class="tips" bindinput="searchHero"/>
+  </view>
+  <view class="menu-list">
+    <view class="menu-item" style="display: {{display[0]}}">
+      <view class="user">
+        <image class="avatar" src="/image/300.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[0]}}</text>
+          <text class="lasttime">15:01</text>
+          <text class="dialog">我们去查案吧。</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[1]}}">
+      <view class="user">
+        <image class="avatar" src="/image/301.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[1]}}</text>
+          <text class="lasttime">15:13</text>
+          <text class="dialog">听候您的吩咐，主人。</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[2]}}">
+      <view class="user">
+        <image class="avatar" src="/image/302.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[2]}}</text>
+          <text class="lasttime">15:59</text>
+          <text class="dialog">顺序、熵值、无限循环的数列。</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[3]}}">
+      <view class="user">
+        <image class="avatar" src="/image/303.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[3]}}</text>
+          <text class="lasttime">16:25</text>
+          <text class="dialog">你埋单，我就来！</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[4]}}">
+      <view class="user">
+        <image class="avatar" src="/image/304.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[4]}}</text>
+          <text class="lasttime">16:41</text>
+          <text class="dialog">发动机已启动，随时可以出发！</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[5]}}">
+      <view class="user">
+        <image class="avatar" src="/image/305.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[5]}}</text>
+          <text class="lasttime">17:00</text>
+          <text class="dialog">是的，只要998，就能让你爽到不能呼吸哟。</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[6]}}">
+      <view class="user">
+        <image class="avatar" src="/image/306.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[6]}}</text>
+          <text class="lasttime">17:21</text>
+          <text class="dialog">德玛西亚！！</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[7]}}">
+      <view class="user">
+        <image class="avatar" src="/image/307.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[7]}}</text>
+          <text class="lasttime">17:51</text>
+          <text class="dialog">我该给他们带点儿恐惧！</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[8]}}">
+      <view class="user">
+        <image class="avatar" src="/image/308.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[8]}}</text>
+          <text class="lasttime">17:51</text>
+          <text class="dialog">欢迎来到德莱联盟！</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[9]}}">
+      <view class="user">
+        <image class="avatar" src="/image/309.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[9]}}</text>
+          <text class="lasttime">18:00</text>
+          <text class="dialog">我用双手成就你的梦想。</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[10]}}">
+      <view class="user">
+        <image class="avatar" src="/image/310.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[10]}}</text>
+          <text class="lasttime">18:11</text>
+          <text class="dialog">以敌人之血，祭我大诺克萨斯！</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[11]}}">
+      <view class="user">
+        <image class="avatar" src="/image/311.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[11]}}</text>
+          <text class="lasttime">18:32</text>
+          <text class="dialog">作战计划什么的，最喜欢了。</text>
+        </view>
+      </view>
+    </view>
+    <view class="menu-item" style="display: {{display[12]}}">
+      <view class="user">
+        <image class="avatar" src="/image/312.png"></image>
+      </view>
+      <view class="text">
+        <view class="inner">
+          <text class="username">{{names[12]}}</text>
+          <text class="lasttime">19:00</text>
+          <text class="dialog">死亡如风，常伴吾身。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
